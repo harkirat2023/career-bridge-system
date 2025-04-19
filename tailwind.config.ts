@@ -61,7 +61,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for job portal
+				purple: {
+          DEFAULT: '#9b87f5',
+          dark: '#7E69AB',
+        },
+        blue: {
+          DEFAULT: '#1EAEDB',
+          light: '#33C3F0',
+        },
+        orange: {
+          DEFAULT: '#F97316',
+        },
+        gray: {
+          neutral: '#8E9196',
+          light: '#F1F0FB',
+          medium: '#8A898C',
+          dark: '#222222',
+        },
+        pink: {
+          DEFAULT: '#D946EF',
+        },
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
